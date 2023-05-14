@@ -217,7 +217,7 @@ class Color:
         Returns:
             The *RGB* values.
         """
-        return (self.red, self.blue, self.green)
+        return (self.red, self.green, self.blue)
 
     @classmethod
     def from_rgba(cls: Type[C], red: int, green: int, blue: int, alpha: int) -> C:

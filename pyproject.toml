@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "colors-core"
-version = "1.0.0"
+version = "1.0.1"
 description = "Core color functionality."
 authors = ["nekitdev"]
 license = "MIT"
@@ -32,7 +32,7 @@ include = "colors"
 [tool.poetry.dependencies]
 python = ">= 3.7"
 
-attrs = ">= 22.2.0"
+attrs = ">= 23.1.0"
 
 [tool.poetry.group.format]
 optional = true
@@ -48,28 +48,28 @@ python = ">= 3.8"
 optional = true
 
 [tool.poetry.group.check.dependencies]
-mypy = "1.2.0"
+mypy = "1.3.0"
 
 [tool.poetry.group.test]
 optional = true
 
 [tool.poetry.group.test.dependencies]
-pytest = "7.3.0"
+pytest = "7.3.1"
 pytest-cov = "4.0.0"
 
 [tool.poetry.group.docs]
 optional = true
 
 [tool.poetry.group.docs.dependencies]
-mkdocs = "1.4.2"
-mkdocs-material = "9.1.6"
+mkdocs = "1.4.3"
+mkdocs-material = "9.1.12"
 
 [tool.poetry.group.docs.dependencies.mkdocstrings]
 version = "0.21.2"
 extras = ["python"]
 
 [tool.poetry.group.dev.dependencies]
-changelogging = "1.1.0"
+changelogging = "1.2.0"
 
 [tool.black]
 line_length = 100
@@ -128,7 +128,7 @@ warn_unused_ignores = false  # compatibility
 
 [tool.changelogging]
 name = "colors-core"
-version = "1.0.0"
+version = "1.0.1"
 url = "https://github.com/nekitdev/colors-core"
 directory = "changes"
 output = "CHANGELOG.md"
