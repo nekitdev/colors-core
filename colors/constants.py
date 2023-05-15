@@ -23,7 +23,19 @@ DOUBLE_BITS = BITS + BITS
 
 BLACK = 0x000000
 """The black color value."""
-WHITE = 0xFFFFFF
+RED = 0xFF0000
+"""The red color value."""
+GREEN = 0x00FF00
+"""The green color value."""
+BLUE = 0x0000FF
+"""The blue color value."""
+YELLOW = RED | GREEN
+"""The yellow color value."""
+CYAN = GREEN | BLUE
+"""The cyan color value."""
+MAGENTA = RED | BLUE
+"""The magenta color value."""
+WHITE = RED | GREEN | BLUE
 """The white color value."""
 
 RED_BYTE = 2
