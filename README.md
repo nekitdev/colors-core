@@ -44,7 +44,7 @@ Or by directly specifying it in the configuration like so:
 
 ```toml
 [tool.poetry.dependencies]
-colors-core = "^1.0.1"
+colors-core = "^1.1.0"
 ```
 
 Alternatively, you can add it directly from the source:
@@ -97,7 +97,7 @@ If you are interested in contributing to `colors-core`, make sure to take a look
 
 [Email]: mailto:support@nekit.dev
 
-[Discord]: https://nekit.dev/discord
+[Discord]: https://nekit.dev/chat
 
 [Actions]: https://github.com/nekitdev/colors-core/actions
 
@@ -112,7 +112,7 @@ If you are interested in contributing to `colors-core`, make sure to take a look
 [Coverage]: https://codecov.io/gh/nekitdev/colors-core
 [Documentation]: https://nekitdev.github.io/colors-core
 
-[Discord Badge]: https://img.shields.io/badge/chat-discord-5865f2
+[Discord Badge]: https://img.shields.io/discord/728012506899021874
 [License Badge]: https://img.shields.io/pypi/l/colors-core
 [Version Badge]: https://img.shields.io/pypi/v/colors-core
 [Downloads Badge]: https://img.shields.io/pypi/dm/colors-core
